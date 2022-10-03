@@ -1,0 +1,39 @@
+<div class="container mt-3">
+    <div class="row">
+        <div class="col">
+            <p class="h3 fw-bold">Adicionar Contacto</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <form (submit)="createSubmit()">
+                <div class="mb-2">
+                    <input required="true" [(ngModel)]="contact.name" name="name" type="text" class="form-control" placeholder="Nome">
+                </div>
+                <div class="mb-2">
+                    <input required="true" [(ngModel)]="contact.age" name="age" type="text" class="form-control" placeholder="Idade">
+                </div>
+                <div class="mb-2">
+                    <input required="true" [(ngModel)]="contact.email" name="email" type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="mb-2">
+                    <input required="true" [(ngModel)]="contact.phone" name="phone" type="text" class="form-control" placeholder="Contacto">
+                </div>
+                <div class="mb-2">
+                    <input required="true" [(ngModel)]="contact.location" name="location" type="text" class="form-control" placeholder="Localização">
+                </div>
+                <div class="mb-2">
+                    <input type="submit" class="btn btn-primary" value="Adicionar">
+                    <a routerLink="/" class="btn btn-dark ms-2">Voltar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+

@@ -1,0 +1,39 @@
+<div class="container mt-3">
+    <div class="row">
+        <div class="col">
+            <p class="h3 fw-bold">Editar Contacto</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <form (submit)="submitUpdate()">
+                <div class="mb-2">
+                    <input [(ngModel)]="contact.name" [value]="contact.name" name="name" required="true" type="text" class="form-control" placeholder="Nome">
+                </div>
+                <div class="mb-2">
+                    <input [(ngModel)]="contact.age" [value]="contact.age" name="age" required="true" type="text" class="form-control" placeholder="Idade">
+                </div>
+                <div class="mb-2">
+                    <input [(ngModel)]="contact.email" [value]="contact.email" name="email" required="true" type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="mb-2">
+                    <input [(ngModel)]="contact.phone" [value]="contact.phone" name="phone" required="true" type="text" class="form-control" placeholder="Contacto">
+                </div>
+                <div class="mb-2">
+                    <input [(ngModel)]="contact.location" [value]="contact.location" name="location" required="true" type="text" class="form-control" placeholder="Localização">
+                </div>
+                <div class="mb-2">
+                    <input type="submit" class="btn btn-primary" value="Editar">
+                    <a routerLink="/" class="btn btn-dark ms-2">Voltar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+

@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "id": "123456",
+      "name": "José António",
+      "age": "33",
+      "email": "jose@mailg.com",
+      "phone": "996969696",
+      "location": "Lisboa"
+    },
+    {
+      "id": "123457",
+      "name": "Alexandra Gomes",
+      "age": "27",
+      "email": "xana@mailg.com",
+      "phone": "996965596",
+      "location": "Porto"
+    },
+    {
+      "name": "Tiago Mendes",
+      "age": "30",
+      "email": "Tiago@mailg.com",
+      "phone": "123456789",
+      "location": "Porto",
+      "id": "8vVXqSk"
+    }
+  ]
+}
